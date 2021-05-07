@@ -2,8 +2,8 @@
   class Database {
 
     public static $host = "127.0.0.1";
-    public static $dbName = "fedorae";
-    public static $username = "root";
+    public static $dbName = "";
+    public static $username = "";
     public static $password = "";
 
     private static function connect() {
